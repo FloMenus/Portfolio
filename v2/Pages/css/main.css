@@ -1,0 +1,87 @@
+/* A SUPPRIMER
+
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lexend Giga', sans-serif; */
+
+html {
+    background-image: url(../../Images/wallpaper-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    width: 90vw ;
+    height: 100vh ;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 10px;
+    margin: 5% 5%;
+}
+
+
+.nav-button {
+        background-color:#0d1b2a83;
+        border-radius:42px;
+        border:4px solid #00d8e7;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        text-decoration:none;
+        width: 80px;
+        height: 80px;
+}
+.nav-selected {
+    background-color:#00d8e7;
+}
+.nav-picture {
+    width: 40px;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 90px;
+    color: #ffffff;
+    line-height: 70px;
+    text-align: center;
+}
+
+h1 span {
+    font-family: 'Lexend Giga', sans-serif;
+    color: #50F1FC;
+    margin-right: 250px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:40px;
+    height: 40vw;
+    width: 90vw;
+}
+
+.main-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.home-main-button {
+	background-color:transparent;
+	border-radius:100px;
+	border:2px solid #00d8e7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:96px 96px;
+	text-decoration:none;
+	text-shadow:0px 1px 1px #2f6627;
+}
+
