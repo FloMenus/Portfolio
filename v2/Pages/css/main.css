@@ -7,7 +7,7 @@ font-family: 'Lexend Giga', sans-serif; */
 
 html {
     background-image: url(../../Images/wallpaper-dark.jpg);
-    background-size: cover;
+    background-size:auto;
     background-repeat: no-repeat;
 }
 
@@ -53,7 +53,7 @@ h1 {
 h1 span {
     font-family: 'Lexend Giga', sans-serif;
     color: #50F1FC;
-    margin-right: 250px;
+    margin-left: 250px;
 }
 
 main {
@@ -61,8 +61,8 @@ main {
     align-items: center;
     justify-content: space-around;
     margin:40px;
-    height: 40vw;
-    width: 90vw;
+    height: 100%;
+    width: 100%
 }
 
 .main-list {
