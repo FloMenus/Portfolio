@@ -16,6 +16,7 @@ h1 span {
 body {
     width: 90vw;
     height: 100vh;
+
 }
 main {
     display: flex;
@@ -45,6 +46,10 @@ main {
 	padding:65px 65px;
 	text-decoration:none;
     position: relative;
+
+}
+.home-main-button:hover {
+    transform: scale(1.2);
 }
 
 .home-main-button h2 {
