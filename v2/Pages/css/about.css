@@ -1,0 +1,26 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin: 5%;
+}
+
+h1 span {
+    color: #50F1FC;
+}
+
+p {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: justify;
+    margin: 4% 10%;
+}

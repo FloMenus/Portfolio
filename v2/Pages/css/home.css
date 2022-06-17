@@ -1,3 +1,82 @@
 h1 {
-    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    width: 55%;
+}
+
+h1 span {
+    font-family: 'Lexend Giga', sans-serif;
+    color: #50F1FC;
+    margin-left: 20%;
+}
+
+body {
+    width: 90vw;
+    height: 100vh;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%
+}
+
+.main-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    gap : 35px;
+    justify-content: center;
+
+}
+
+.home-main-button {
+	border-radius:100px;
+	border:2px solid #00d8e7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:65px 65px;
+	text-decoration:none;
+    position: relative;
+}
+
+.home-main-button h2 {
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+.button-about {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.9),
+     rgba(2, 60, 87, 0.9) ),url(../../Images/web-dev-picture.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.button-skills {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.9),
+     rgba(2, 60, 87, 0.9) ),url(../../Images/coding-picture.jpg);
+    background-size: cover;
+    background-position: right;
+}
+.button-projects {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.9),
+     rgba(2, 60, 87, 0.9) ),url(../../Images/project-picture.jpg);
+    background-size: cover;
+    background-position: right;
+}
+.button-contact {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.9),
+     rgba(2, 60, 87, 0.9) ),url(../../Images/contact.jpg);
+    background-size: cover;
+    background-position: right, top;
 }
