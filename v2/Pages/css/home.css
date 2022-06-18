@@ -46,6 +46,7 @@ main {
 	padding:65px 65px;
 	text-decoration:none;
     position: relative;
+    filter: drop-shadow(8px 5px 8px rgba(0, 0, 0, 0.78));
 
 }
 .home-main-button:hover {
@@ -55,9 +56,9 @@ main {
 .home-main-button h2 {
     position: absolute;
     top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Lexend Giga', sans-serif;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lexend Giga', sans-serif;
 }
 
 .button-about {

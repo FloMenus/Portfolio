@@ -1,0 +1,55 @@
+h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin: 5%;
+}
+h1 span {
+    color: #50F1FC;
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 33px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 50px;
+}
+h3 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+    padding-top:5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 50px;
+
+    background-color: #20202062;
+    backdrop-filter: blur(50px);
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
