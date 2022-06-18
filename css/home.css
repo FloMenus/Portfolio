@@ -63,26 +63,26 @@ main {
 
 .button-about {
     background-image: linear-gradient( rgba(0, 0, 0, 0.9),
-     rgba(2, 60, 87, 0.9) ),url(../../Images/web-dev-picture.jpg);
+     rgba(2, 60, 87, 0.9) ),url(Images/web-dev-picture.jpg);
     background-size: cover;
     background-position: right;
 }
 
 .button-skills {
     background-image: linear-gradient( rgba(0, 0, 0, 0.9),
-     rgba(2, 60, 87, 0.9) ),url(../../Images/coding-picture.jpg);
+     rgba(2, 60, 87, 0.9) ),url(Images/coding-picture.jpg);
     background-size: cover;
     background-position: right;
 }
 .button-projects {
     background-image: linear-gradient( rgba(0, 0, 0, 0.9),
-     rgba(2, 60, 87, 0.9) ),url(../../Images/project-picture.jpg);
+     rgba(2, 60, 87, 0.9) ),url(Images/project-picture.jpg);
     background-size: cover;
     background-position: right;
 }
 .button-contact {
     background-image: linear-gradient( rgba(0, 0, 0, 0.9),
-     rgba(2, 60, 87, 0.9) ),url(../../Images/contact.jpg);
+     rgba(2, 60, 87, 0.9) ),url(Images/contact.jpg);
     background-size: cover;
     background-position: right, top;
 }
