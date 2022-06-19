@@ -37,6 +37,7 @@ a {
     justify-content: center;
     width: 40%;
     margin: 0 auto;
+    margin-bottom: 5%;
     padding-top:5%;
     padding-bottom: 5%;
     padding-left: 10%;
@@ -52,4 +53,25 @@ a {
     align-items: center;
     justify-content: flex-start;
     gap: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .contact-container {
+        width: 70%;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .contact-container {
+        width: 70%;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .contact {
+        flex-direction: column;
+        border-bottom: #ffffff solid 1px;
+        width: 100%;
+    }
+
 }
