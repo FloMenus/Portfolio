@@ -21,3 +21,9 @@ p {
     text-align: justify;
     margin: 4% 10%;
 }
+
+@media screen and (max-width: 992px) {
+    main {
+        height: 120%;
+    }
+}

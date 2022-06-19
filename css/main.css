@@ -16,10 +16,11 @@ color: #FFFFFF;
 
 
 body {
-    background: linear-gradient(-45deg,  #014c52, #1b1b1b, #000000);
+    background: linear-gradient(-45deg,  #014c52, #014450, #505050);
     background-size: 300% 300%;
     animation: gradient 30s ease infinite;
-    height: 100vh;
+    height: 100%;
+    user-select: none
   }
   
   @keyframes gradient {
@@ -52,6 +53,7 @@ body {
     text-decoration: none;
     width: 50px;
     height: 50px;
+    transition: transform 0.3s;
 }
 .nav-button:hover {
     transform: scale(1.1);
@@ -63,4 +65,20 @@ body {
 
 .nav-picture {
     width: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .navbar-list {
+      align-items: center;
+      justify-content: center;
+      margin: 5% 0% 0% 0%;
+      width: 100%;
+  }
+
+  body {
+      margin: 0% auto;
+
+  }
 }
