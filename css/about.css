@@ -3,7 +3,7 @@
 h1 {
     font-family: 'Alegreya Sans SC', sans-serif;
     color: white;
-    font-size: 80px;
+    font-size: 40px;
     text-align: center;
     margin: 5%;
 }
@@ -15,9 +15,8 @@ h1 span {
 p {
     font-family: 'Hind Madurai';
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 15px;
+    line-height: 20px;
     text-align: justify;
     margin: 4% 10%;
     background-color: #20202062;

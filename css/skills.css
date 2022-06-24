@@ -16,18 +16,18 @@ h2 {
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 400;
-    font-size: 150%;
+    font-size: 15px;
     line-height: 33px;
     text-align: justify;
     color: #ffffff;
 }
 
 .skill-icon {
-    height: 44px;
+    height: 20px;
 }
 
 .main-skills-group {
-    display: flex;
+    display: grid;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #20202062;
