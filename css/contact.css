@@ -1,12 +1,13 @@
 h1 {
     font-family: 'Alegreya Sans SC', sans-serif;
-    color: white;
+    color: #FDCB9E;
     font-size: 80px;
     text-align: center;
     margin: 5%;
+    
 }
 h1 span {
-    color: #50F1FC;
+    color: #00B7C2;
 }
 
 h2 {
@@ -27,7 +28,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #FDCB9E;
 }
 
 .contact-container {
@@ -37,11 +38,8 @@ a {
     justify-content: center;
     width: 40%;
     margin: 0 auto;
-    margin-bottom: 5%;
-    padding-top:5%;
-    padding-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-bottom: 3%;
+    padding: 3% 10%;
     gap: 50px;
     border: 2px solid #ffffff;
     background-color: #20202062;
@@ -53,7 +51,14 @@ a {
     align-items: center;
     justify-content: flex-start;
     gap: 30px;
+    transition: 0.5s;
 }
+
+.contact:hover {
+    transform: scale(1.2);
+}
+
+
 
 @media screen and (max-width: 992px) {
     .contact-container {

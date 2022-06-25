@@ -25,7 +25,12 @@ a {
 body {
   height: 100%;
   user-select: none;
-  background-color: #1B262C;
+  background: url("../Images/layered-waves-background.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 
@@ -58,7 +63,7 @@ body {
 }
 
 .nav-selected {
-  background-color: 0F4C75;
+  background-color: #0F4C75;
 }
 
 .nav-picture {

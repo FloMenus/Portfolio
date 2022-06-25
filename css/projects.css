@@ -1,13 +1,14 @@
 h1 {
     font-family: 'Alegreya Sans SC', sans-serif;
-    color: white;
+    color: #FDCB9E;
+    ;
     font-size: 80px;
     text-align: center;
     margin: 5%;
 }
 
 h1 span {
-    color: #50F1FC;
+    color: #00B7C2;
 }
 
 a {
@@ -20,7 +21,7 @@ h2 {
     font-size: 40px;
     line-height: 33px;
     text-align: center;
-    color: #ffffff;
+    color: #FDCB9E;
     line-height: 50px;
 }
 .projects-regroup {
@@ -44,8 +45,8 @@ h2 {
     justify-content: center;
     background-color: #20202062;
     backdrop-filter: blur(50px);
-    border: 1px solid #FFFFFF;
-    transition: transform 0.3s;
+    transition: 0.5s;
+    border-radius: 10px;
 }
 .project:hover {
     transform: scale(1.1);

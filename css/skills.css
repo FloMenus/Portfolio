@@ -2,32 +2,33 @@
 
 h1 {
     font-family: 'Alegreya Sans SC', sans-serif;
-    color: white;
+    color: #FDCB9E;
     font-size: 80px;
     text-align: center;
     margin: 5%;
 }
 
 h1 span {
-    color: #50F1FC;
+    color: #00B7C2;
 }
 
 h2 {
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 25px;
     line-height: 33px;
     text-align: justify;
     color: #ffffff;
 }
 
+
 .skill-icon {
-    height: 20px;
+    height: 40px;
 }
 
 .main-skills-group {
-    display: grid;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #20202062;
@@ -44,10 +45,11 @@ h2 {
     
 .main-skill {
     display:flex;
-    gap: 15px;
+    gap: 25px;
     align-items: center;
     justify-content: flex-start;
-    width: 150px;
+    height: 20%;
+    width: 30%;
     transition: transform 0.3s;
 }
 .main-skill:hover {
@@ -59,7 +61,7 @@ h2 {
     background-color: #20202062;
     backdrop-filter: blur(50px);
     margin: 0% auto;
-    margin-top: 10%;
+    margin-top: 7%;
     padding: 1% 3%;
     height: 100px;
     width: 60%;

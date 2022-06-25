@@ -2,14 +2,14 @@
 
 h1 {
     font-family: 'Alegreya Sans SC', sans-serif;
-    color: white;
-    font-size: 40px;
+    color: #FDCB9E;
+    font-size: 80px;
     text-align: center;
     margin: 5%;
 }
 
 h1 span {
-    color: #50F1FC;
+    color: #00B7C2;
 }
 
 p {
@@ -18,10 +18,13 @@ p {
     font-size: 15px;
     line-height: 20px;
     text-align: justify;
-    margin: 4% 10%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
     background-color: #20202062;
     backdrop-filter: blur(50px);
     padding: 5%;
+    width: 50%;
 }
 p strong {
     font-weight: 600;

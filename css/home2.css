@@ -4,7 +4,11 @@ h1 {
     color: #FDCB9E;
     line-height: 65px;
     text-align: center;
-    width: 55%;
+    transition: 0.5s;
+}
+
+h1:hover {
+    padding-right: 90px;
 }
 
 h1 span {
@@ -12,6 +16,8 @@ h1 span {
     color: #00B7C2;
     margin-left: 20%;
 }
+
+
 
 h2 {
     color: #FDCB9E;
@@ -23,14 +29,16 @@ body {
 
 }
 
+
 main {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 80%;
     width: 80%;
     margin: 0 auto;
     margin-top: 15%;
+    gap : 80px;
 }
 
 .main-list {
@@ -46,6 +54,7 @@ main {
     z-index: var(--i);
     transition: 0.5s;
     width: 200px;
+    
 }
 
 .main-list li:hover {
@@ -85,11 +94,12 @@ main {
     right:0;
     width: 100%;
     height: 40px;
-    background-color: #0a3653;
+    background-color: #0f486e;
     transform-origin: bottom;
     transform: skewX(-45deg);
 
 }
+
 
 .animate__animated.animate__fadeInDown {
     --animate-duration: 1s;
@@ -113,45 +123,6 @@ main {
 } */
 
 
-.home-main-button:hover {
-    transform: scale(1.2);
-}
-
-.home-main-button h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Lexend Giga', sans-serif;
-}
-
-.button-about {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
-            rgba(2, 60, 87, 0.9)), url(Images/web-dev-picture.jpg);
-    background-size: cover;
-    background-position: right;
-}
-
-.button-skills {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
-            rgba(2, 60, 87, 0.9)), url(Images/coding-picture.jpg);
-    background-size: cover;
-    background-position: right;
-}
-
-.button-projects {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
-            rgba(2, 60, 87, 0.9)), url(Images/project-picture.jpg);
-    background-size: cover;
-    background-position: right;
-}
-
-.button-contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
-            rgba(2, 60, 87, 0.9)), url(Images/contact.jpg);
-    background-size: cover;
-    background-position: right, top;
-}
 
 @media screen and (max-width: 992px) {
 
@@ -177,11 +148,16 @@ main {
         margin: 10% 0%;
     }
 
+    .main-list {
+        margin-top: 30%;
+        position: absolute center center fixed;
+    }
+
     h1 {
         margin: 0%;
         align-items: center;
-        font-size: 60px;
-        line-height: 40px;
+        font-size: 80px;
+        line-height: 60px;
     }
 
     h1 span {
@@ -191,11 +167,12 @@ main {
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 40px;
+        font-size: 60px;
     }
     .main-list {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 30px;
+        margin-top: 30%;
+        position: absolute center center fixed;
+
     }
+
 }
